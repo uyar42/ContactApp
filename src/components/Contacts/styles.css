@@ -1,0 +1,38 @@
+#container{
+    width: 400px;
+    background-color: lawngreen;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}   
+
+.list{
+    margin: 15px 0 ;
+
+}
+
+.list>li{
+    background-color: rgb(229, 255, 0);
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    border-style: groove;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+}
